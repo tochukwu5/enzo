@@ -15,7 +15,7 @@ function ReadyToGetStarted() {
               <a
                 href="#"
                 className="bg-green-500 py-3 px-4 lg:px-8 font-semibold shadow rounded-md text-white text-nowrap hover:bg-green-700">
-                Hire Talent
+                Talk to an Expert
               </a>
             </span>
           </div>

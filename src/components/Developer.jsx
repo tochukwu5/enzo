@@ -24,13 +24,82 @@ function Developer() {
 						Unlock Elite Global Expertise
 					</h2>
 					<p className=' m-6 text-center text-gray-500 max-w-[600px]'>
-						Enzo Solution Groups connects you with a carefully selected network of exceptional
+						Enzo Solutions Group connects you with a carefully selected network of exceptional
 						 professionals in business, design, and technology — ready to deliver excellence 
 						 on your most mission-critical projects
 					</p>
 				</div>
 
 				<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-1 max-w-[1300px]'>
+
+						<div className='bg-gray-100 p-10 hover:cursor-pointer hover:bg-blue-600 hover:text-white group transition'>
+						<img
+							src={finance}
+							alt='Finance Expert'
+							className='w-12 mb-8 group-hover:bg-gray-100'
+						/>
+						<h3 className='text-xl my-4'>Sales & Lead Generation</h3>
+						<p>
+							Helping businesses scale through targeted B2B lead generation, strategic 
+							LinkedIn and email outreach, appointment setting, cold calling, and optimized sales
+							 funnel development.
+						</p>
+						{/* <div
+							className={`flex justify-between items-center my-4 invisible group-hover:visible`}>
+							<a
+								href=''
+								className='hover:underline text-lg'>
+								Finance Expert
+							</a>
+							<FontAwesomeIcon icon={faArrowRight} />
+						</div> */}
+					</div>
+
+						<div className='bg-gray-100 p-10 hover:cursor-pointer hover:bg-blue-600 hover:text-white group transition'>
+						<img
+							src={seo}
+							alt='SEO Expert'
+							className='w-12 mb-8 group-hover:bg-gray-100'
+						/>
+						<h3 className='text-xl my-4'>SEO (Search Engine Optimization)</h3>
+						<p>
+							Experts in website SEO audits, on-page SEO, technical SEO, backlink building, and local SEO, 
+							helping businesses improve visibility and rank higher on search engines.
+						</p>
+						{/* <div
+							className={`flex justify-between items-center my-4 invisible group-hover:visible`}>
+							<a
+								href=''
+								className='hover:underline text-lg'>
+								SEO (Search Engine Optimization)
+							</a>
+							<FontAwesomeIcon icon={faArrowRight} />
+						</div> */}
+					</div>
+
+						<div className='bg-gray-100 p-10 hover:cursor-pointer hover:bg-blue-600 hover:text-white group transition'>
+						<img
+							src={project}
+							alt='Project Manager'
+							className='w-12 mb-8 group-hover:bg-gray-100'
+						/>
+						<h3 className='text-xl my-4'> Digital Marketing Services</h3>
+						<p>
+							Experts in social media marketing, Facebook and Instagram advertising, Google Ads,
+							 marketing strategy, campaign management, and influencer marketing to help brands 
+							 grow their online presence.
+						</p>
+						{/* <div
+							className={`flex justify-between items-center my-4 invisible group-hover:visible `}>
+							<a
+								href=''
+								className='hover:underline text-lg'>
+								View Project Manager
+							</a>
+							<FontAwesomeIcon icon={faArrowRight} />
+						</div> */}
+					</div>
+
 					<div className='bg-gray-100 p-10 hover:cursor-pointer  hover:bg-blue-600 hover:text-white group transition'>
 						<img
 							src={developer}
@@ -75,51 +144,7 @@ function Developer() {
 						</div> */}
 					</div>
 
-					<div className='bg-gray-100 p-10 hover:cursor-pointer hover:bg-blue-600 hover:text-white group transition'>
-						<img
-							src={finance}
-							alt='Finance Expert'
-							className='w-12 mb-8 group-hover:bg-gray-100'
-						/>
-						<h3 className='text-xl my-4'>Sales & Lead Generation</h3>
-						<p>
-							Helping businesses scale through targeted B2B lead generation, strategic 
-							LinkedIn and email outreach, appointment setting, cold calling, and optimized sales
-							 funnel development.
-						</p>
-						{/* <div
-							className={`flex justify-between items-center my-4 invisible group-hover:visible`}>
-							<a
-								href=''
-								className='hover:underline text-lg'>
-								Finance Expert
-							</a>
-							<FontAwesomeIcon icon={faArrowRight} />
-						</div> */}
-					</div>
-
-					<div className='bg-gray-100 p-10 hover:cursor-pointer hover:bg-blue-600 hover:text-white group transition'>
-						<img
-							src={project}
-							alt='Project Manager'
-							className='w-12 mb-8 group-hover:bg-gray-100'
-						/>
-						<h3 className='text-xl my-4'> Digital Marketing Services</h3>
-						<p>
-							Experts in social media marketing, Facebook and Instagram advertising, Google Ads,
-							 marketing strategy, campaign management, and influencer marketing to help brands 
-							 grow their online presence.
-						</p>
-						{/* <div
-							className={`flex justify-between items-center my-4 invisible group-hover:visible `}>
-							<a
-								href=''
-								className='hover:underline text-lg'>
-								View Project Manager
-							</a>
-							<FontAwesomeIcon icon={faArrowRight} />
-						</div> */}
-					</div>
+				
 
 					<div className='bg-gray-100 p-10 hover:cursor-pointer hover:bg-blue-600 hover:text-white group transition'>
 						<img
@@ -253,27 +278,6 @@ function Developer() {
 						</div> */}
 					</div>
 
-						<div className='bg-gray-100 p-10 hover:cursor-pointer hover:bg-blue-600 hover:text-white group transition'>
-						<img
-							src={seo}
-							alt='SEO Expert'
-							className='w-12 mb-8 group-hover:bg-gray-100'
-						/>
-						<h3 className='text-xl my-4'>SEO (Search Engine Optimization)</h3>
-						<p>
-							Experts in website SEO audits, on-page SEO, technical SEO, backlink building, and local SEO, 
-							helping businesses improve visibility and rank higher on search engines.
-						</p>
-						{/* <div
-							className={`flex justify-between items-center my-4 invisible group-hover:visible`}>
-							<a
-								href=''
-								className='hover:underline text-lg'>
-								SEO (Search Engine Optimization)
-							</a>
-							<FontAwesomeIcon icon={faArrowRight} />
-						</div> */}
-					</div>
 
 						<div className='bg-gray-100 p-10 hover:cursor-pointer hover:bg-blue-600 hover:text-white group transition'>
 						<img

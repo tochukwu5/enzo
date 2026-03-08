@@ -144,19 +144,16 @@ function ClientSatification() {
 										fill='blue'></path>
 								</svg>
 								<h3 className='font-bold'>
-									I have been working with Enzo Solution Groups
+									I have been working with Mark from Enzo Solutions Group
 								</h3>
 
 								<p className='text-gray-500 text-sm'>
-									Enzo Solution Groups was a pleasure to partner with. Their team demonstrated impressive attention
-									 to detail, conducting thorough research that translated into seamless execution.
-									  We are incredibly satisfied with the results and look forward to collaborating with them
-									   on future projects
+									I am delighted to recognize Mark from Enzo Solutions Group for his exceptional sales skills. Mark consistently meets and exceeds his sales targets, demonstrating outstanding product knowledge and customer service. His ability to build strong relationships with clients has significantly contributed to our sales growth.
 
 								</p>
 
 								<a
-									href=''
+									href='https://www.upwork.com/freelancers/~01deca9980c2e8d7ee'
 									className='text-blue-800 hover:underline font-semibold'>
 									See More
 								</a>
@@ -209,7 +206,7 @@ function ClientSatification() {
 									</span>
 								</div>
 								<div>
-									<h4 className='text-sm font-semibold '>Henry Brown</h4>
+									<h4 className='text-sm font-semibold '>Henry B.</h4>
 									<p className='text-sm text-gray-500 py-2'>Upwork enterprise client</p>
 									<img
 										className='w-14'
@@ -230,17 +227,17 @@ function ClientSatification() {
 										fill='blue'></path>
 								</svg>
 								<h3 className='font-bold'>
-									Enzo Solution Groups has consistently become my primary source for everything I need
+									Enzo Solutions Group has consistently become my primary source for everything I need
 								</h3>
 
 								<p className='text-gray-500 text-sm'>
-									Having met and worked with Paul form Enzo Solution Groups has been greatly appreciated. He is a great communicator, 
+									Having met and worked with Paul from Enzo Solutions Group has been greatly appreciated. He is a great communicator, 
 									professional, and very clear on what is needed for a successful sales cycle. I will not hesitate
 									 to recommend him or work with them in the future if the occasion arise
 								</p>
 
 								<a
-									href=''
+									href='https://www.upwork.com/freelancers/~019de7efe85477966a'
 									className='text-blue-800 hover:underline font-semibold'>
 									See More
 								</a>
@@ -293,7 +290,7 @@ function ClientSatification() {
 									</span>
 								</div>
 								<div>
-									<h4 className='text-sm font-semibold '>Oliver Jones </h4>
+									<h4 className='text-sm font-semibold '>Oliver J. </h4>
 									<p className='text-sm text-gray-500 py-2'>Upwork enterprise client</p>
 									<img
 										className='w-14'
@@ -314,17 +311,17 @@ function ClientSatification() {
 										fill='blue'></path>
 								</svg>
 								<h3 className='font-bold'>
-									Enzo Solution Groups is the best company I have worked with
+									Enzo Solutions Group is the best company I have worked with
 								</h3>
 
 								<p className='text-gray-500 text-sm'>
-									Enzo Solution Groups helped me set up my Sales flow, scripts, CRMs, they got me on the right track, however,
+									Enzo Solutions Group helped me set up my Sales flow, scripts, CRMs, they got me on the right track, however,
 									 I wasn't ready with my product fully enough. For anyone with a good product to sell, they are 
 									 the one! Looking forward working with them again once I close my development gaps.
 								</p>
 
 								<a
-									href=''
+									href='https://www.upwork.com/freelancers/~019de7efe85477966a'
 									className='text-blue-800 hover:underline font-semibold'>
 									See More
 								</a>
@@ -377,7 +374,7 @@ function ClientSatification() {
 									</span>
 								</div>
 								<div>
-									<h4 className='text-sm font-semibold '>James Johnson</h4>
+									<h4 className='text-sm font-semibold '>James W.</h4>
 									<p className='text-sm text-gray-500 py-2'>Upwork enterprise client</p>
 									<img
 										className='w-14'

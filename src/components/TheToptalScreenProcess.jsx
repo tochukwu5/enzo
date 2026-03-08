@@ -7,7 +7,7 @@ export const TheToptalScreenProcess = () => {
         <div className="max-w-[1200px] flex flex-col justify-center items-center">
           <div className="mb-16 flex flex-col  gap-3 justify-center items-center">
             <h2 className="text-5xl text-gray-900 font-semibold text-center">
-              Enzo Solution Groups's Screening Process
+              Enzo Solutions Group's Screening Process
             </h2>
             <p className="w-1/2 p-8 text-gray-600 text-center">
               Each applicant to the Toptal network must pass a screening process

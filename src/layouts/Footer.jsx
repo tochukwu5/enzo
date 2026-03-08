@@ -21,6 +21,14 @@ function Footer() {
 									<a
 										href=""
 										className=" hover:text-gray-400 my-3">
+										Hire Digital Marketers
+									</a>
+								</li>
+
+								<li className="pt-3">
+									<a
+										href=""
+										className=" hover:text-gray-400 my-3">
 										Hire Web & Mobile Developers
 									</a>
 								</li>
@@ -45,14 +53,7 @@ function Footer() {
 										Hire Video Editors
 									</a>
 								</li>
-									<li className="pt-3">
-									<a
-										href=""
-										className=" hover:text-gray-400 my-3">
-										Hire Digital Marketers
-									</a>
-								</li>
-							
+			
 							
 							</ul>
 						</div>

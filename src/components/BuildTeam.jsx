@@ -6,7 +6,7 @@ import level from '../assets/img/level.svg';
 import theTop from '../assets/img/top.svg';
 import person1 from '../assets/img/image1.png';
 import person2 from '../assets/img/image2.png';
-import person3 from '../assets/img/image3.png';
+import person5 from '../assets/img/image5.png';
 import shopify from '../assets/img/shopify.svg';
 import logo from '../assets/img/logo.png';
 
@@ -44,7 +44,7 @@ function BuildTeam() {
 							/>
 							<h2 className='mb-3 heading-xs font-semibold'>The Top 1%</h2>
 							<p className=' text-gray-700 font-light'>
-								Every professional in the Enzo Solution Groups network goes through a strict 
+								Every professional in the Enzo Solutions Group network goes through a strict 
 								screening process to evaluate expertise, reliability, and communication.
 								 Only the top 1% of global talent make it into our network.
 							</p>
@@ -87,7 +87,7 @@ function BuildTeam() {
 									View Full Profile
 								</div> */}
 								<img
-									src={person2}
+									src={person5}
 									alt=''
 									className='scale-150 '
 								/>
@@ -95,10 +95,10 @@ function BuildTeam() {
 
 							<div className='p-3'>
 								<h3 className='text-blue-700 font-semibold hover:cursor-pointer hover:underline p-1'>
-									David E.
+									Mark I.
 								</h3>
 
-								<div className='flex gap-1'>
+								<div className='flex gap-1 mb-3'>
 									<svg
 										width='16'
 										height='16'
@@ -116,10 +116,10 @@ function BuildTeam() {
 											fill='white'></path>
 									</svg>
 									<h3 className='text-green-800 whitespace-nowrap text-sm'>
-										<span className='font-semibold '> Expert</span> in Web Development
+										<span className='font-semibold '>  Global Business Development <br /> leader (Co-founder)</span> 
 									</h3>
 								</div>
-								<div className='flex gap-1 my-2'>
+								{/* <div className='flex gap-1 my-2'>
 									<svg
 										xmlns='http://www.w3.org/2000/svg'
 										width='16'
@@ -134,8 +134,8 @@ function BuildTeam() {
 											d='M10.1 1.125 6.875 15.1l-.975-.225L9.125.9l.975.225ZM1.63 8l3.074-4.1-.8-.6L.38 8l3.525 4.702.8-.6L1.63 8Zm9.674 4.103.8.6L15.63 8l-3.525-4.7-.8.6L14.38 8l-3.075 4.103Z'
 											clipRule='evenodd'></path>
 									</svg>
-									<h3 className='text-sm'>Web Developer </h3>
-								</div>
+									<h3 className='text-sm'>Co-founder </h3>
+								</div> */}
 								<div>
 									<h3 className='uppercase my-2 text-sm'>Currently Working at</h3>
 									<img
@@ -187,7 +187,7 @@ function BuildTeam() {
 										</h3>
 									</div>
 									<div className='flex gap-1 my-2'>
-									<svg
+									{/* <svg
  										 xmlns="http://www.w3.org/2000/svg"
 											width="16"
 											height="16"
@@ -201,7 +201,7 @@ function BuildTeam() {
 												clipRule="evenodd"
 											/>
 											</svg>
-										<h3 className='text-sm'> Growth Strategist </h3>
+										<h3 className='text-sm'> Founder & Growth Strategist </h3> */}
 									</div>
 									<div>
 										<h3 className='uppercase my-2 text-sm'>Currently Working at</h3>
@@ -221,14 +221,14 @@ function BuildTeam() {
 										View Full Profile
 									</div> */}
 									<img
-										src={person3}
+										src={person2}
 										alt=''
 										className='scale-150'
 									/>
 								</div>
 								<div className='p-3'>
 									<h3 className='text-blue-700 font-semibold hover:cursor-pointer hover:underline p-1'>
-										Julius E.
+										David E.
 									</h3>
 
 									<div className='flex gap-1'>
@@ -249,8 +249,8 @@ function BuildTeam() {
 												fill='white'></path>
 										</svg>
 										<h3 className='text-green-800 whitespace-nowrap text-sm'>
-											<span className='font-semibold '>Verified </span> 
-											Solidity Developer
+											<span className='font-semibold '>Expert </span>
+											in Web Development
 										</h3>
 									</div>
 									<div className='flex gap-1 my-2'>
@@ -268,7 +268,7 @@ function BuildTeam() {
 												d='M10.1 1.125 6.875 15.1l-.975-.225L9.125.9l.975.225ZM1.63 8l3.074-4.1-.8-.6L.38 8l3.525 4.702.8-.6L1.63 8Zm9.674 4.103.8.6L15.63 8l-3.525-4.7-.8.6L14.38 8l-3.075 4.103Z'
 												clipRule='evenodd'></path>
 										</svg>
-										<h3 className='text-sm'>Solidity Developer </h3>
+										<h3 className='text-sm'>Web Developer </h3>
 									</div>
 									<div>
 										<h3 className='uppercase my-2 text-sm'>Currently Working at</h3>

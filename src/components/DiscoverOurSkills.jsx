@@ -10,21 +10,7 @@ const [leftOpen, setLeftOpen] = useState(null);
 const [rightOpen, setRightOpen] = useState(null);
 
 const leftSkills = [
-{
-title: "Website Design & Development",
-items: [
-"WordPress website design",
-"Shopify stores",
-"Landing page design",
-"Webflow development",
-"Ecommerce website development",
-"Full-stack development",
-"Front-end development",
-"Web design"
-]
-},
-
-{
+    {
 title: "Sales & Lead Generation",
 items: [
 "B2B lead generation",
@@ -37,13 +23,28 @@ items: [
 },
 
 {
-title: "SEO (Search Engine Optimization)",
+title: "Digital Marketing Services",
 items: [
-"Website SEO audits",
-"On-page SEO",
-"Technical SEO",
-"Backlink building",
-"Local SEO"
+"Social media marketing",
+"Facebook / Instagram ads",
+"Google Ads",
+"Marketing strategy",
+"Campaign management",
+"Influencer marketing"
+]
+},
+
+{
+title: "Website Design & Development",
+items: [
+"WordPress website design",
+"Shopify stores",
+"Landing page design",
+"Webflow development",
+"Ecommerce website development",
+"Full-stack development",
+"Front-end development",
+"Web design"
 ]
 },
 
@@ -91,6 +92,16 @@ items: [
 ];
 
 const rightSkills = [
+    {
+title: "SEO (Search Engine Optimization)",
+items: [
+"Website SEO audits",
+"On-page SEO",
+"Technical SEO",
+"Backlink building",
+"Local SEO"
+]
+},
 {
 title: "Mobile App Development",
 items: [
@@ -98,18 +109,6 @@ items: [
 "Android apps",
 "Flutter apps",
 "MVP app development"
-]
-},
-
-{
-title: "Digital Marketing Services",
-items: [
-"Social media marketing",
-"Facebook / Instagram ads",
-"Google Ads",
-"Marketing strategy",
-"Campaign management",
-"Influencer marketing"
 ]
 },
 

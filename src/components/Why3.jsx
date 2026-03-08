@@ -8,7 +8,7 @@ export const Why3 = () => {
             <div className="p-5 text-xl">
               <p>
                 We combine global expertise with a deep understanding of your business needs. 
-                From software development to creative design and strategic planning, Enzo Solution Groups
+                From software development to creative design and strategic planning, Enzo Solutions Group
                  delivers professionals who are ready to tackle your most critical projects. 
                  
               </p>

@@ -15,6 +15,25 @@ function MeetTalent() {
 const [activeCategory, setActiveCategory] = useState("developers");
 
 const talents = [
+	{
+name: "Paul E.",
+image: person1,
+category: "finance",
+role: "Founder & Growth Strategist",
+skills: ["Growth", "Sales funnel", "Email campaign", "LinkedIn outreach"]
+},
+{
+name: "Mark I.",
+image: person5,
+category: "data",
+role: (
+    <>
+    Global Business Development  <br />Leader
+      (Co-founder)
+    </>
+  ),
+skills: ["KPI Tracking", "Coaching", "Team Training", "Lead Generation"]
+},
 {
 name: "David E.",
 image: person2,
@@ -23,13 +42,6 @@ role: "Web Developer",
 skills: ["Front-end", "Git", "NodeJs", "React"]
 },
 
-{
-name: "Paul E.",
-image: person1,
-category: "finance",
-role: "Growth Strategist",
-skills: ["Growth", "Sales funnel", "Email campaign", "LinkedIn outreach"]
-},
 
 {
 name: "Julius E.",
@@ -45,14 +57,6 @@ image: person4,
 category: "designers",
 role: "Graphic Designer ",
 skills: ["Logo design", "Figma", "UX/UX", "Branding"]
-},
-
-{
-name: "Mark I.",
-image: person5,
-category: "data",
-role: "Data Analyst",
-skills: ["Python", "SQL", "PowerBI", "ML"]
 },
 
 {
@@ -82,6 +86,58 @@ Meet Talented Team in Our Network
 
 <ul className="text-gray-700 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-3 py-5 border-y border-gray-500 text-sm">
 
+
+<li
+onClick={() => setActiveCategory("finance")}
+className={`border-r border-gray-500 group py-2 cursor-pointer
+${activeCategory === "finance" ? "bg-blue-800 text-white rounded" : ""}
+`}
+>
+
+<div className="flex items-center justify-center gap-5 px-4">
+
+<h3 className="font-semibold whitespace-nowrap">
+Founder
+</h3>
+
+</div>
+
+</li>
+
+<li
+onClick={() => setActiveCategory("data")}
+className={`border-r border-gray-500 group py-2 cursor-pointer
+${activeCategory === "data" ? "bg-blue-800 text-white rounded" : ""}
+`}
+>
+
+<div className="flex items-center justify-center gap-5 px-4">
+
+<h3 className="font-semibold whitespace-nowrap">
+Co-Founder
+</h3>
+
+</div>
+
+</li>
+
+<li
+onClick={() => setActiveCategory("marketing")}
+className={`group py-2 cursor-pointer
+${activeCategory === "marketing" ? "bg-blue-800 text-white rounded" : ""}
+`}
+>
+
+<div className="flex items-center justify-center gap-5 px-4">
+
+<h3 className="font-semibold whitespace-nowrap">
+Marketing Experts
+</h3>
+
+</div>
+
+</li>
+
 <li
 onClick={() => setActiveCategory("developers")}
 className={`border-r border-gray-500 group py-2 cursor-pointer
@@ -91,20 +147,6 @@ ${activeCategory === "developers" ? "bg-blue-800 text-white rounded" : ""}
 
 <div className="flex items-center justify-center gap-4 px-4">
 
-{/* <svg
-xmlns="http://www.w3.org/2000/svg"
-width="16"
-height="16"
-fill="blue"
-className="group-hover:fill-white"
->
-<path
-fillRule="evenodd"
-d="M10.1 1.125 6.875 15.1l-.975-.225L9.125.9l.975.225ZM1.63 8l3.074-4.1-.8-.6L.38 8l3.525 4.702.8-.6L1.63 8Zm9.674 4.103.8.6L15.63 8l-3.525-4.7-.8.6L14.38 8l-3.075 4.103Z"
-clipRule="evenodd"
-/>
-
-</svg> */}
 
 <h3 className="font-semibold whitespace-nowrap">
 Developers
@@ -132,43 +174,6 @@ Designers
 
 </li>
 
-
-<li
-onClick={() => setActiveCategory("finance")}
-className={`border-r border-gray-500 group py-2 cursor-pointer
-${activeCategory === "finance" ? "bg-blue-800 text-white rounded" : ""}
-`}
->
-
-<div className="flex items-center justify-center gap-5 px-4">
-
-<h3 className="font-semibold whitespace-nowrap">
-Finance Experts
-</h3>
-
-</div>
-
-</li>
-
-
-<li
-onClick={() => setActiveCategory("data")}
-className={`border-r border-gray-500 group py-2 cursor-pointer
-${activeCategory === "data" ? "bg-blue-800 text-white rounded" : ""}
-`}
->
-
-<div className="flex items-center justify-center gap-5 px-4">
-
-<h3 className="font-semibold whitespace-nowrap">
-Data Analyst Expert
-</h3>
-
-</div>
-
-</li>
-
-
 <li
 onClick={() => setActiveCategory("solidity")}
 className={`border-r border-gray-500 group py-2 cursor-pointer
@@ -186,23 +191,6 @@ Solidity Developer
 
 </li>
 
-
-<li
-onClick={() => setActiveCategory("marketing")}
-className={`group py-2 cursor-pointer
-${activeCategory === "marketing" ? "bg-blue-800 text-white rounded" : ""}
-`}
->
-
-<div className="flex items-center justify-center gap-5 px-4">
-
-<h3 className="font-semibold whitespace-nowrap">
-Marketing Experts
-</h3>
-
-</div>
-
-</li>
 
 </ul>
 

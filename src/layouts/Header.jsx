@@ -22,7 +22,7 @@ export function Header() {
 		<>
 			{/*-----------------------  Header Side Bar ---------------- */}
 			<div
-				className={`fixed z-50 top-16 left-0  h-screen bg-gray-200 ${
+				className={`fixed z-50 top-16 left-0  h-screen  bg-gray-200 ${
 					isSidebarOpen ? 'w-full sm:w-[70%]' : 'w-0'
 				} transition-all duration-300 overflow-hidden`}>
 				<button
@@ -105,7 +105,7 @@ export function Header() {
 
 			{/* ------------------------- Header ---------------------------- */}
 
-			<div className='bg-white flex justify-center w-full fixed z-50 items-center'>
+			<div className='bg-white flex justify-center w-full z-50 items-center relative'>
 				<div className='text-sm flex items-center justify-between w-full 2xl:max-w-[1200px] px-[5%]'>
 					
 					<div className=' font-small flex items-center justify-items-start sm:justify-between'>

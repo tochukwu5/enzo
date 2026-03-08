@@ -40,7 +40,12 @@ function HireTheTop() {
     {
       image: image5,
       name: " Mark I.",
-      role: "Data Analyst",
+      role:  (
+    <>
+      Global Business Development <br />Leader 
+      (Co-founder)
+    </>
+  ),
      
     },
      {
@@ -74,34 +79,35 @@ useEffect(() => {
   }, [slides.length]);
 
   return (
-    <div className="bg-[#d2d6e2] flex justify-center items-center py-28 px-11 overflow-hidden">
+    <div className="bg-[#d2d6e2] flex justify-center items-center py-16 lg:py-0 px-11 overflow-hidden">
       <div className="max-w-[1200px] grid grid-cols-1 md:grid-cols-2 relative">
         <div className="mb-5 flex flex-col justify-center items-center z-10">
           <h1 className=" text-2xl lg:text-3xl lg:leading-normal leading-normal text-center font-medium text-gray-800 lg:text-left">
-            Stop Searching for Freelancers. Get the Right Experts for Your Business — All in One Place.
+            Build, Scale, and Grow Your Business with On-Demand Expert Teams
           </h1>
           <p className=" mt-5 text-center mb-11 text-gray-500 lg:text-left ">
-            We help businesses solve sales, marketing, technology, and operational challenges
-             by connecting them with carefully vetted freelance professionals who deliver real results.
+            We connect businesses with carefully vetted professionals across sales, technology, marketing, and operations 
+            managed by experienced business leaders.
+
           </p>
           <a
             href="#"
             className="bg-green-400 px-11 py-4 my-5 w-fit text-white text-center text-xl font-bold">
-            Hire Talent
+           Start Your Project
           </a>
         </div>
-        <div className="relative hidden md:block ">
+        <div className="relative hidden md:block  h-[500px]">
 
  {slides.map((slide, index) => (
   <div
     key={index}
     className={`flex justify-center items-center absolute ml-5 bottom-0 left-0 w-full transition-opacity duration-1000 ${
-      index === currentIndex ? "opacity-100 z-20" : "opacity-0 z-0 " 
+      index === currentIndex ? "opacity-100 z-20" : "opacity-0 z-0  " 
     }`}
   >
 
     {/* IMAGE SECTION */}
-    <div className="absolute bottom-32 md:-right-32 xl:-left-6 w-[400px] h-[330px]  lg:w-[350px] xl:w-[400px]">
+    <div className="absolute bottom-32 md:-right-32 xl:-left-6 w-[400px] h-[330px]   lg:w-[350px] xl:w-[400px]">
       <img
         src={slide.image}
         alt={slide.name}
