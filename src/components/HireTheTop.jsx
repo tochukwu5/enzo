@@ -29,7 +29,7 @@ function HireTheTop() {
     {
       image: image3,
       name: "Julius U.",
-      role: "Certified Solidity Developer",
+      role: "Certified Backend Developer",
   
     },
     {
@@ -51,7 +51,7 @@ function HireTheTop() {
      {
       image: image6,
       name: "Collins E.",
-      role: "Digital Marketer",
+      role: "Certified Solidity Developer",
      
     }
   ];

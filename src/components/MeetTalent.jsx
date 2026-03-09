@@ -46,9 +46,9 @@ skills: ["Front-end", "Git", "NodeJs", "React"]
 {
 name: "Julius E.",
 image: person3,
-category: "solidity",
-role: "Solidity Developer",
-skills: ["Solidity", "Blockchain", "Ethers.js", "Web3"]
+category: "backend",
+role: "Backend Developer",
+skills: ["Node.js", "API", "server", "Docker"]
 },
 
 {
@@ -64,7 +64,7 @@ name: "Collins E.",
 image: person6,
 category: "solidity",
 role: "Marketing Expert",
-skills: ["SEO", "Ads", "Content", "Growth"]
+skills: ["Blockchain", "Solidity", "Web3", "Ethers.js"]
 },
 ];
 
@@ -121,23 +121,6 @@ Co-Founder
 
 </li>
 
-{/* <li
-onClick={() => setActiveCategory("marketing")}
-className={`group py-2 cursor-pointer
-${activeCategory === "marketing" ? "bg-blue-800 text-white rounded" : ""}
-`}
->
-
-<div className="flex items-center justify-center gap-5 px-4">
-
-<h3 className="font-semibold whitespace-nowrap">
-Marketing Experts
-</h3>
-
-</div>
-
-</li> */}
-
 <li
 onClick={() => setActiveCategory("developers")}
 className={`border-r border-gray-500 group py-2 cursor-pointer
@@ -156,18 +139,17 @@ Developers
 
 </li>
 
-
 <li
-onClick={() => setActiveCategory("designers")}
-className={`border-r border-gray-500 group py-2 cursor-pointer
-${activeCategory === "designers" ? "bg-blue-800 text-white rounded" : ""}
+onClick={() => setActiveCategory("backend")}
+className={`group py-2 cursor-pointer
+${activeCategory === "backend" ? "bg-blue-800 text-white rounded" : ""}
 `}
 >
 
 <div className="flex items-center justify-center gap-5 px-4">
 
 <h3 className="font-semibold whitespace-nowrap">
-Designers
+Backend Dev
 </h3>
 
 </div>
@@ -185,6 +167,23 @@ ${activeCategory === "solidity" ? "bg-blue-800 text-white rounded" : ""}
 
 <h3 className="font-semibold whitespace-nowrap">
 Solidity Developer
+</h3>
+
+</div>
+
+</li>
+
+<li
+onClick={() => setActiveCategory("designers")}
+className={`border-r border-gray-500 group py-2 cursor-pointer
+${activeCategory === "designers" ? "bg-blue-800 text-white rounded" : ""}
+`}
+>
+
+<div className="flex items-center justify-center gap-5 px-4">
+
+<h3 className="font-semibold whitespace-nowrap">
+Designers
 </h3>
 
 </div>
