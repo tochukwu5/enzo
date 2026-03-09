@@ -17,10 +17,10 @@ function BuildTeam() {
 				<div className=' lg:w-1/2'>
 					<div className='mb-16'>
 						<h2 className='text-3xl lg:text-5xl text-center sm:text-left font-semibold pb-5'>
-							Build Exceptional Teams, On Demand
+							Problem We Solve
 						</h2>
 						<p className='text-gray-500 text-center sm:text-left'>
-							Build Exceptional Teams, On Demand.
+							Power Your Business with Expert Teams.
 						</p>
 					</div>
 					<div className='w-full grid md:grid-cols-2 lg:grid-cols-2 gap-5'>
@@ -30,10 +30,11 @@ function BuildTeam() {
 								className='mb-6'
 								alt='Hire'
 							/>
-							<h2 className='mb-3 heading-xs font-semibold'>Fast Hiring</h2>
+							<h2 className='mb-3 heading-xs font-semibold'>Unreliable Freelancers</h2>
 							<p className=' text-gray-700 font-light'>
-								Find the right talent in less than 48 hours. Whether you need short-term help 
-								or long-term collaboration, our flexible hiring model adapts to your business needs.
+								Many businesses struggle with freelancers who disappear mid-project or deliver inconsistent quality.
+								 Enzo Solutions Group provides carefully vetted professionals and managed teams, ensuring reliability, 
+								 accountability, and consistent results on every project
 							</p>
 						</div>
 						<div>
@@ -42,11 +43,11 @@ function BuildTeam() {
 								className='mb-6'
 								alt='The top 3%'
 							/>
-							<h2 className='mb-3 heading-xs font-semibold'>The Top 1%</h2>
+							<h2 className='mb-3 heading-xs font-semibold'>Poor Communication</h2>
 							<p className=' text-gray-700 font-light'>
-								Every professional in the Enzo Solutions Group network goes through a strict 
-								screening process to evaluate expertise, reliability, and communication.
-								 Only the top 1% of global talent make it into our network.
+								Working with remote freelancers can lead to slow responses, unclear updates, and misunderstandings 
+								about project goals. We ensure clear communication through dedicated coordination, structured updates,
+								 and professional project management.
 							</p>
 						</div>
 						<div>
@@ -56,11 +57,12 @@ function BuildTeam() {
 								alt='Leading the Future of Work'
 							/>
 							<h2 className='mb-3 heading-xs font-semibold'>
-								Shaping the Future of Work
+								Missed Deadlines
 							</h2>
 							<p className=' text-gray-700 font-light'>
-								Our global network is prepared for the next generation of business challenges, 
-								bringing expertise in modern technologies, innovation, and emerging fields like AI and blockchain.
+								Freelancers often juggle multiple clients, which can lead to missed deadlines and delayed business
+								 progress. Our managed teams follow structured workflows and clear timelines to ensure projects
+								  are delivered on schedule.
 							</p>
 						</div>
 						<div>
@@ -69,10 +71,11 @@ function BuildTeam() {
 								className='mb-6'
 								alt='A Level Above'
 							/>
-							<h2 className='mb-3 heading-xs font-semibold'>A Higher Standard</h2>
+							<h2 className='mb-3 heading-xs font-semibold'>Managing Multiple Specialists</h2>
 							<p className=' text-gray-700 font-light'>
-								All professionals in our network are selected for their technical excellence, 
-								professionalism, and commitment to delivering high-quality results on every project.
+								Modern projects require different experts like developers, designers, marketers, and content creators, 
+								which can be difficult to manage individually. Enzo Solutions Group brings together the right 
+								specialists into one coordinated team, so businesses can focus on growth while we handle the execution.
 							</p>
 						</div>
 					</div>

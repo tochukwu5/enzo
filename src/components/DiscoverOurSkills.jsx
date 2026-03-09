@@ -175,7 +175,7 @@ return (
 
 <div className="flex justify-center items-center my-4">
 <h2 className="text-3xl sm:text-5xl text-gray-900 font-semibold text-center">
-Discover Our Expert Skillsets
+The Services We Offer
 </h2>
 </div>
 

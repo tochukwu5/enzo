@@ -62,7 +62,7 @@ skills: ["Logo design", "Figma", "UX/UX", "Branding"]
 {
 name: "Collins E.",
 image: person6,
-category: "marketing",
+category: "solidity",
 role: "Marketing Expert",
 skills: ["SEO", "Ads", "Content", "Growth"]
 },
@@ -121,7 +121,7 @@ Co-Founder
 
 </li>
 
-<li
+{/* <li
 onClick={() => setActiveCategory("marketing")}
 className={`group py-2 cursor-pointer
 ${activeCategory === "marketing" ? "bg-blue-800 text-white rounded" : ""}
@@ -136,7 +136,7 @@ Marketing Experts
 
 </div>
 
-</li>
+</li> */}
 
 <li
 onClick={() => setActiveCategory("developers")}

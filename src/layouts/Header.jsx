@@ -240,7 +240,7 @@ export function Header() {
 							<a
 								href=''
 								className='bg-green-400 py-2 px-4 rounded-md text-white hover:bg-green-300'>
-								Hire Talent
+								Tell Us About Your Project
 							</a>
 						</span>
 

@@ -7,7 +7,7 @@ function Hiring() {
       <div className="bg-white p-11 flex flex-col justify-center items-center overflow:hidden">
         <div className="max-w-[1200px]">
           <h2 className="text-4xl text-center font-semibold">
-            Hiring Made Simple
+            How It Works
           </h2>
 
           <div className="flex flex-col gap-6 md:flex-row">
@@ -21,11 +21,10 @@ function Hiring() {
                 <hr className="w-full border-1 border-blue-500" />
               </div>
               <h3 className="font-semibold text-xl text-gray-800 text-center">
-                Speak With Our Talent Specialists
+                Tell Us Your Project
               </h3>
               <p className="text-gray-500">
-                Contact us through our website form, email, or social media, and our team will review your 
-                project requirements to connect you with the right experts for your needs.
+                Share your goals and business challenges.
               </p>
             </div>
             <div>
@@ -38,11 +37,26 @@ function Hiring() {
                 <hr className="w-full border-1 border-blue-500" />
               </div>
               <h3 className="font-semibold text-xl text-gray-800 text-center">
-                Get Matched With Elite Talent
+                We Assemble the Right Experts
               </h3>
               <p className="text-gray-500">
-                Within a short time, we introduce you to carefully selected professionals who match your project 
-                requirements. Our matching process is fast and efficient
+                We select the best professionals from our vetted network.
+              </p>
+            </div>
+             <div>
+              <div className="flex items-center  my-11">
+                <hr className="w-full border-t border-blue-500 flex items-center justify-center" />
+                <FontAwesomeIcon
+                  icon={faCircleCheck}
+                  className="w-20 h-20 bg-white text-blue-500"
+                />
+                <hr className="w-full border-1 border-blue-500" />
+              </div>
+              <h3 className="font-semibold text-xl text-gray-800 text-center">
+                We Manage Execution
+              </h3>
+              <p className="text-gray-500">
+                Our team oversees communication, delivery, and quality.
               </p>
             </div>
             <div>
@@ -55,11 +69,10 @@ function Hiring() {
                 <hr className="w-full border-1 border-blue-500" />
               </div>
               <h3 className="font-semibold text-xl text-gray-800 text-center">
-                Hire With Confidence
+                You Get Results
               </h3>
               <p className="text-gray-500">
-                Start working with your chosen professional on a trial basis to ensure the perfect fit before
-                 committing long term.
+                Your project is delivered efficiently and professionally.
               </p>
             </div>
           </div>
