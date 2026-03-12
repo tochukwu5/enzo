@@ -88,7 +88,7 @@ export function Header() {
 						<li
 							className=''
 							onClick={handleSidebarToggle}>
-							<Link to='/#'>About Us</Link>
+							<Link to='/about-us'>About Us</Link>
 							{/* <Link to='/about-us'>About Us</Link> */}
 						</li>
 
@@ -204,7 +204,7 @@ export function Header() {
 									}`}
 									onMouseEnter={() => setActiveIndex(6)}
 									onMouseLeave={() => setActiveIndex(null)}>
-									<Link to='/#'>About Us</Link>
+									<Link to='/about-us'>About Us</Link>
 									{/* <Link to='/about-us'>About Us</Link> */}
 								</li>
 									<li

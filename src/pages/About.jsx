@@ -3,6 +3,7 @@
 import { AboutNav } from '../components/AboutNav';
 import { AboutToptal } from '../components/AboutToptal';
 import { LeadershipTeam } from '../components/LeadershipTeam';
+import Footer from '../layouts/Footer';
 import { Header } from '../layouts/Header';
 
 export const About = () => {
@@ -10,8 +11,9 @@ export const About = () => {
 		<>
 			<Header />
 			<AboutToptal />
-			<AboutNav />
+			{/* <AboutNav /> */}
 			<LeadershipTeam />
+			<Footer />
 		</>
 	);
 };
