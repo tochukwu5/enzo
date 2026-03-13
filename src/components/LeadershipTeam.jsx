@@ -192,11 +192,11 @@ export const LeadershipTeam = () => {
 
 				<div className='flex justify-center gap-6'>
 					<button className='bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600'>
-						Get a Free Consultation
+						Book a Strategy Call
 					</button>
 
 					<button className='border  border-gray-400 px-6 py-3 rounded-md hover:bg-gray-200'>
-						Tell Us About Your Project
+						Submit Your Business Challenge
 					</button>
 				</div>
 			</section>
