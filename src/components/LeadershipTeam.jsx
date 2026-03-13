@@ -14,13 +14,22 @@ export const LeadershipTeam = () => {
 						About Enzo Solutions Group
 					</h1>
 
-					<p className='text-gray-600 text-left max-w-3xl mx-auto leading-relaxed'>
-						Enzo Solutions Group helps businesses solve complex challenges by
-						assembling and managing expert teams across sales, marketing,
-						technology, and operations. Instead of hiring multiple freelancers
-						or struggling to manage different specialists, companies can rely on
-						our structured approach to build high-performing teams that deliver
-						real results.
+						<p className='text-gray-600 text-left leading-relaxed max-w-3xl mx-auto'>
+						Enzo Solutions Group is a business solutions agency that helps organizations solve critical challenges by
+						 connecting them with the right expertise. Instead of navigating the complexity of hiring and managing
+						  multiple freelancers, businesses work with us to access a curated network of skilled professionals across 
+						  sales, marketing, technology, design, and business operations. <br /> <br />
+						  Our approach combines strategic leadership, expert talent, and structured project oversight to ensure
+						   every engagement delivers meaningful results. We take the time to understand each client’s goals,
+						    assemble the right specialists, and manage the execution so projects are completed efficiently and 
+							professionally.
+							<br /> <br />
+							By bridging the gap between business needs and world-class expertise, Enzo Solutions Group enables
+							 companies to move faster, scale smarter, and focus on growth while we handle the delivery of
+							  high-impact solutions.
+								<p className="text-gray-600 font-bold text-left leading-relaxed max-w-3xl mx-auto">Strategic Solutions. Expert Talent. Real Results</p>
+
+
 					</p>
 
 					<div className='mt-10 flex justify-center gap-6'>
@@ -41,14 +50,14 @@ export const LeadershipTeam = () => {
 					<h2 className='text-2xl lg:text-4xl font-semibold text-gray-800 mb-6'>
 						What We Do
 					</h2>
-
 					<p className='text-gray-600 text-left leading-relaxed max-w-3xl mx-auto'>
-						Many businesses struggle with unreliable freelancers, poor
-						communication, and missed deadlines when working with remote talent.
-						Enzo Solutions Group removes this complexity by providing carefully
-						selected professionals and structured team management that ensures
-						every project runs smoothly from start to finish.
+					Many businesses struggle with unreliable freelancers, poor communication, and missed deadlines when working with 
+									remote talent. Enzo Solutions Group removes this complexity by providing carefully selected professionals and 
+									structured team management that ensures every project runs smoothly from start to finish.
 					</p>
+				
+
+
 				</div>
 			</section>
 
@@ -127,9 +136,18 @@ export const LeadershipTeam = () => {
 							</p>
 
 							<p className='text-gray-600 text-left'>
-								17+ years of experience in sales, lead generation, and
-								go-to-market strategy helping companies generate revenue and
-								build scalable growth systems.
+								Paul is a seasoned Sales Consultant, Business Development Manager, and Go-To-Market Strategist
+								 with over 18 years of experience helping organizations drive revenue and build sustainable growth
+								  systems.
+
+								Throughout his career, he has worked with companies across industries including technology, SaaS, 
+								digital marketing, real estate, and professional services, helping them generate new business
+								 opportunities through strategic sales processes, lead generation systems, and market expansion 
+								 strategies.
+
+								At Enzo Solutions Group, Paul leads the company’s growth strategy, client acquisition, and solution 
+								development, ensuring that every project aligns with the client’s business goals and delivers measurable 
+								results.
 							</p>
 						</div>
 
@@ -147,9 +165,13 @@ export const LeadershipTeam = () => {
 							</p>
 
 							<p className='text-gray-600 text-left'>
-								Experienced in international client acquisition, partnerships,
-								and business growth, helping organizations expand into global
-								markets and build strong client relationships.
+								Mark is a Global Business Development Leader with strong expertise in client acquisition, strategic 
+								partnerships, and international business expansion. His experience working with businesses across 
+								different markets enables him to identify growth opportunities and build strong relationships that 
+								drive long-term success.
+
+								At Enzo Solutions Group, Mark oversees global business development initiatives, strategic partnerships,
+								 and client relationships, helping the company expand its reach and deliver value to clients worldwide.
 							</p>
 						</div>
 					</div>

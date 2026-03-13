@@ -10,6 +10,8 @@ import { BlogUIEngeering } from '../components/BlogUIEngeering';
 import { MostReadArticle } from '../components/MostReadArticle';
 import { ToptalDevelopers } from '../components/ToptalDevelopers';
 import { JoinCommunity } from '../components/JoinCommunity';
+import { ContactSection } from '../components/contactUs';
+
 
 export const Blog = () => {
 	return (
@@ -20,13 +22,14 @@ export const Blog = () => {
 				<BlogHeader />
 			</div>
 			<div className='relative bottom-10'>
-				<Engineering />
+				{/* <Engineering /> */}
 			</div>
-			<WorldClass />
-			<BlogUIEngeering />
-			<MostReadArticle />
-			<WorldClass />
-			<ToptalDevelopers />
+			{/* <WorldClass /> */}
+			{/* <BlogUIEngeering /> */}
+			{/* <MostReadArticle /> */}
+			{/* <WorldClass /> */}
+			{/* <ToptalDevelopers /> */}
+			<ContactSection />
 			<JoinCommunity />
 			<Footer />
 		</>
