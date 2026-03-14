@@ -10,8 +10,7 @@ export const ConnectTheTop = () => {
             className="absolute w-full h-full"
           />
           <p className="text-4xl md:text-5xl text-white text-center py-10 md:p-32 leading-normal">
-            Toptal Connects the <a href="">Top&nbsp;3%</a> of Freelance Talent
-            All Over The World.
+            Enzo Solutions Group Empowers Businesses with Innovative Digital Solutions Worldwide.
           </p>
         </div>
       </div>

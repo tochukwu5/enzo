@@ -8,6 +8,7 @@ import ExploreTrending from "../components/ExploreTrending";
 import { JoinCommunity } from "../components/JoinCommunity";
 import Footer from "../layouts/Footer";
 import { Header } from "../layouts/Header";
+import { ResultsSection } from "../components/ResultsSection";
 
 export const Top = () => {
   return (
@@ -16,9 +17,10 @@ export const Top = () => {
         <Why3 />
         <CertificateSlider />
         <TheToptalScreenProcess />
+        <ResultsSection />
         <ConnectTheTop />
-        <ToptalDevelopers />
-        <ExploreTrending />
+        {/* <ToptalDevelopers /> */}
+        {/* <ExploreTrending /> */}
         <JoinCommunity />
         <Footer />
       
