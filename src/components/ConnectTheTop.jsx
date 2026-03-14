@@ -9,7 +9,7 @@ export const ConnectTheTop = () => {
             alt="background image"
             className="absolute w-full h-full"
           />
-          <p className="text-4xl md:text-5xl text-white text-center py-10 md:p-32 leading-normal">
+          <p className="text-2xl  md:text-5xl text-white text-center py-10 md:p-32 leading-normal">
             Enzo Solutions Group Empowers Businesses with Innovative Digital Solutions Worldwide.
           </p>
         </div>

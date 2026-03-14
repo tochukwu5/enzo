@@ -8,22 +8,22 @@ import { FeaturedStartupClients } from '../components/FeaturedStartupClients';
 import { HearFromClients } from '../components/HearFromClients';
 import { JoinCommunity } from '../components/JoinCommunity';
 import { ToptalDevelopers } from '../components/ToptalDevelopers';
+import ClientSatification from "../components/ClientSatification";
 import { TrustedByLeading } from '../components/TrustedByLeading';
 import Footer from '../layouts/Footer';
 import { Header } from '../layouts/Header';
+import { PortfolioSection } from '../components/Portfolio';
 
 export const Clients = () => {
 	return (
 		<>
 			<Header />
 			<ClientsHeading />
-			<FeaturedEnterpriseClients />
-			<FeaturedStartupClients />
-			<TrustedByLeading />
-			<HearFromClients />
+			{/* <FeaturedEnterpriseClients /> */}
+			{/* <FeaturedStartupClients /> */}
+			<PortfolioSection />
+			<ClientSatification />
 			<ConnectTheTop />
-			<ToptalDevelopers />
-			<ExploreTrending />
 			<JoinCommunity />
 			<Footer />
 		</>
