@@ -73,7 +73,7 @@ export function Header() {
 						</li> */}
 						<li className=''>
 							<Link
-								to='/#'
+								to='/top'
 								// to='/why'
 								onClick={handleSidebarToggle}>
 								Why Us
@@ -95,7 +95,7 @@ export function Header() {
 						<li
 							className=''
 							onClick={handleSidebarToggle}>
-							<Link to='/#'>Contact Us</Link>
+							<Link to='/blog'>Contact Us</Link>
 							{/* <Link to='/blog'>Contact Us</Link> */}
 						</li>
 						
@@ -129,7 +129,7 @@ export function Header() {
 									onMouseEnter={() => setActiveIndex(1)}
 									onMouseLeave={() => setActiveIndex(null)}>
 									{/* <Link to='/top'>Why Us</Link> */}
-									<Link to='/#'>Why Us</Link>
+									<Link to='/top'>Why Us</Link>
 								</li>
 								{/* <li
 									key={2}
@@ -216,7 +216,7 @@ export function Header() {
 									}`}
 									onMouseEnter={() => setActiveIndex(5)}
 									onMouseLeave={() => setActiveIndex(null)}>
-									<Link to='/#'>Contact Us</Link>
+									<Link to='/blog'>Contact Us</Link>
 									{/* <Link to='/blog'>Contact Us</Link> */}
 								</li>
 							</ul>
