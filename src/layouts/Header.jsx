@@ -80,7 +80,10 @@ export function Header() {
 							</Link>
 						</li>
 						<li className=''>
-						<Link
+							<a href="#services" onClick={handleSidebarToggle}>
+  Our Services
+</a>
+						{/* <Link
   to="/"
   onClick={() => {
     handleSidebarToggle(); // close mobile menu
@@ -93,7 +96,7 @@ export function Header() {
   }}
 >
   Our Services
-</Link>
+</Link> */}
 						</li>
 						<li
 							className=' '
@@ -195,7 +198,11 @@ export function Header() {
   onMouseEnter={() => setActiveIndex(3)}
   onMouseLeave={() => setActiveIndex(null)}
 >
-  <Link
+	<a href="#services" onClick={handleSidebarToggle}>
+  Our Services
+</a>
+
+  {/* <Link
     to="/"
     onClick={() => {
     //   handleSidebarToggle(false); 
@@ -209,7 +216,7 @@ export function Header() {
     }}
   >
     Our Services
-  </Link>
+  </Link> */}
 </li>
 								<li
 									key={4}
