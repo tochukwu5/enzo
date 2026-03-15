@@ -8,11 +8,11 @@ import FlipCard2 from './FlipCard2';
 export const BlogHeader = () => {
 	return (
 		<>
-			<div className='w-full h-[700px] overflow-hidden flex flex-col items-center justify-center'>
+			<div className='w-full h-[450px] lg:h-[650px]  overflow-hidden flex flex-col items-center justify-center'>
 				<img
 					src={blogbg}
 					alt=''
-					className='object-cover relative min-h-[350px] lg:min-h-[500px] 2xl:h-[600px]'
+					className='object-cover relative min-h-[750px] lg:min-h-[500px] 2xl:h-[600px]'
 				/>
 				<div className='absolute top-0 text-white  max-w-[1200px]  '>
 					<div className='w-full '>

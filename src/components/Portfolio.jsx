@@ -1,5 +1,17 @@
 import { useState } from "react";
 import { ExternalLink } from "lucide-react";
+import tochimanna from '../assets/img/Portfolio/tochimanna.png';
+import unnestate from '../assets/img/Portfolio/unnestate.png';
+import ezek1 from '../assets/img/Portfolio/ezek1.jpeg';
+import ezek2 from '../assets/img/Portfolio/ezek2.png';
+import ezek3 from '../assets/img/Portfolio/ezek3.jpeg';
+import ezek4 from '../assets/img/Portfolio/ezek4.jpeg';
+import ezek5 from '../assets/img/Portfolio/ezek5.jpeg';
+import b2b from '../assets/img/Portfolio/B2B_Lead.png';
+import highticket from '../assets/img/Portfolio/high_ticket.png';
+import crmautomation from '../assets/img/Portfolio/CRMAutomation.png';
+
+
 
 export const PortfolioSection = () => {
 
@@ -12,67 +24,67 @@ export const PortfolioSection = () => {
 
   const projects = [
     {
-      title: "Food Delivery Website",
-      description: "Modern responsive business website built with React and Tailwind.",
+      title: "Food Delivery Web Application",
+      description: "A responsive food ordering website that allows users to browse meals and place orders easily online.",
       category: "Web Development",
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d",
+      image: tochimanna,
       link: "https://food-delivery-frontend-qogu.onrender.com/"
     },
     {
-      title: "Brand Identity Design",
-      description: "Complete branding package including logo, colors, and brand system.",
+      title: "Laptop & Phone Repair Design",
+      description: "A modern promotional graphic for laptop and smartphone repair services, highlighting fast and reliable solutions.",
       category: "Graphic Design",
-      image: "https://images.unsplash.com/photo-1558655146-d09347e92766",
-      link: "#"
+      image: ezek3,
+      link: "https://drive.google.com/drive/folders/1s4ZAyrMeQNYno6R_0Wo6QG-nb7kBLwdO"
     },
     {
-      title: "Lead Generation Campaign",
-      description: "Sales funnel and outreach strategy that increased qualified leads.",
-      category: "Sales & Marketing",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
-      link: "#"
+      title: "Cryptocurrency Awareness Design",
+      description: "A bold graphic designed to promote cryptocurrency education and digital finance opportunities.",
+      category: "Graphic Design",
+      image: ezek5,
+      link: "https://drive.google.com/drive/folders/1s4ZAyrMeQNYno6R_0Wo6QG-nb7kBLwdO"
     },
     {
-      title: "E-commerce Platform",
-      description: "Full eCommerce solution with payment integration and analytics.",
+      title: "Student Rental Management Platform",
+      description: "A web platform designed to help students find and list rental properties around the university.",
       category: "Web Development",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-      link: "#"
+      image: unnestate,
+      link: "https://unnestate-sabe.onrender.com/"
     },
     {
-      title: "Social Media Graphics",
-      description: "Creative marketing graphics designed for digital campaigns.",
+      title: "Lip Gloss Product Design",
+      description: "A stylish beauty graphic created to promote a lip gloss brand with attractive product visuals.",
       category: "Graphic Design",
-      image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0",
-      link: "#"
+      image: ezek1,
+      link: "https://drive.google.com/drive/folders/1s4ZAyrMeQNYno6R_0Wo6QG-nb7kBLwdO"
     },
         {
-      title: "Lead Generation Campaign",
-      description: "Sales funnel and outreach strategy that increased qualified leads.",
+      title: "B2B Lead Generation for SaaS",
+      description: "A structured lead generation system created to help SaaS companies attract and convert high-quality business prospects.",
       category: "Sales & Marketing",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
-      link: "#"
+      image: b2b,
+      link: "https://www.upwork.com/freelancers/~019de7efe85477966a"
     },
     {
-      title: "E-commerce Platform",
-      description: "Full eCommerce solution with payment integration and analytics.",
-      category: "Web Development",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-      link: "#"
+      title: "CRM Automation & Cold Email System",
+      description: "A system designed to automate CRM workflows and cold email outreach for efficient B2B lead generation and client acquisition.",
+      category: "Sales & Marketing",
+      image: crmautomation,
+      link: "https://www.upwork.com/freelancers/~01deca9980c2e8d7ee"
     },
     {
-      title: "Social Media Graphics",
-      description: "Creative marketing graphics designed for digital campaigns.",
+      title: "Scholarship Opportunity Campaign",
+      description: "An informative graphic designed to promote scholarship opportunities for students.",
       category: "Graphic Design",
-      image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0",
-      link: "#"
+      image: ezek4,
+      link: "https://drive.google.com/drive/folders/1s4ZAyrMeQNYno6R_0Wo6QG-nb7kBLwdO"
     },
     {
-      title: "Growth Marketing Strategy",
-      description: "Strategic marketing plan designed to scale business growth.",
+      title: "High-Ticket B2B Sales Strategy",
+      description: "A sales strategy focused on acquiring and converting high-value B2B clients through targeted outreach and proven sales processes.",
       category: "Sales & Marketing",
-      image: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
-      link: "#"
+      image: highticket,
+      link: "https://www.upwork.com/freelancers/~019de7efe85477966a"
     }
   ];
 
@@ -89,9 +101,9 @@ export const PortfolioSection = () => {
 
         {/* Heading */}
         <div className="text-center mb-14">
-          <h2 className="text-4xl font-semibold text-gray-900 mb-4">
+          {/* <h2 className="text-4xl font-semibold text-gray-900 mb-4">
             Our Portfolio
-          </h2>
+          </h2> */}
 
           <p className="text-gray-600 max-w-xl mx-auto">
             Explore some of the projects we have delivered for businesses

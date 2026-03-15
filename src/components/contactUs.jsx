@@ -10,7 +10,7 @@ export const ContactSection = () => {
         {/* Heading */}
         <div className="text-center mb-14">
           <h2 className="text-4xl md:text-5xl font-semibold py-8 text-gray-800">
-            Let’s Work Together
+            Have a project in mind? 
           </h2>
 
           <p className="mt-4 max-w-2xl text-left md:text-center mx-auto text-gray-600">
@@ -44,7 +44,7 @@ export const ContactSection = () => {
                   <div>
                     <p className="font-medium">Location</p>
                     <p className="text-blue-100 text-sm">
-                      Global Remote Team
+                      Port Harcourt, Rivers State, Nigeria.
                     </p>
                   </div>
                 </div>
@@ -54,7 +54,7 @@ export const ContactSection = () => {
                   <div>
                     <p className="font-medium">Email Us</p>
                     <p className="text-blue-100 text-sm">
-                      hello@enzosolutionsgroup.com
+                        paul.ebehiremen@gmail.com
                     </p>
                   </div>
                 </div>
@@ -64,7 +64,7 @@ export const ContactSection = () => {
                   <div>
                     <p className="font-medium">Phone</p>
                     <p className="text-blue-100 text-sm">
-                      +1 (000) 000-0000
+                      +234 803 272 9977
                     </p>
                   </div>
                 </div>
@@ -84,18 +84,35 @@ export const ContactSection = () => {
 
             {/* Socials */}
             <div className="flex gap-4 mt-10">
-              <div className="w-10 h-10 flex items-center justify-center bg-white/20 rounded-full cursor-pointer">
-                X
-              </div>
 
-              <div className="w-10 h-10 flex items-center justify-center bg-white/20 rounded-full cursor-pointer">
-                in
-              </div>
+  {/* <a
+    href="https://x.com/yourusername"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 flex items-center justify-center bg-white/20 rounded-full cursor-pointer hover:bg-white/30 transition"
+  >
+    X
+  </a> */}
 
-              <div className="w-10 h-10 flex items-center justify-center bg-white/20 rounded-full cursor-pointer">
-                f
-              </div>
-            </div>
+  <a
+    href="https://www.linkedin.com/company/enzo-digital-world/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 flex items-center justify-center bg-white/20 rounded-full cursor-pointer hover:bg-white/30 transition"
+  >
+    in
+  </a>
+
+  <a
+    href="https://www.facebook.com/profile.php?id=61579241692961"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 flex items-center justify-center bg-white/20 rounded-full cursor-pointer hover:bg-white/30 transition"
+  >
+    f
+  </a>
+
+</div>
 
           </div>
 
