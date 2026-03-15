@@ -203,7 +203,7 @@ export function Header() {
       setTimeout(() => {
         const section = document.getElementById("services");
         if (section) {
-          section.scrollIntoView({ behavior: "smooth" });
+          section.scrollIntoView({ behavior: "smooth " });
         }
       }, 200);
     }}
