@@ -14,7 +14,7 @@ export const BlogHeader = () => {
 					alt=''
 					className='object-cover relative min-h-[750px] lg:min-h-[500px] 2xl:h-[600px]'
 				/>
-				<div className='absolute top-0 text-white  max-w-[1200px]  '>
+				<div className='absolute top-0 text-white  max-w-[1200px] '>
 					<div className='w-full '>
 						<div className='flex flex-col justify-between text-center my-5 lg:my-12'>
 							<h2 className='text-4xl md:text-6xl font-normal py-3 '>
