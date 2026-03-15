@@ -80,7 +80,13 @@ export function Header() {
 							</Link>
 						</li>
 						<li className=''>
-							<a href="#services" onClick={handleSidebarToggle}>
+					<a
+  href="#services"
+  onClick={() => {
+    setIsSidebarOpen(false);
+    handleSidebarToggle();
+  }}
+>
   Our Services
 </a>
 						{/* <Link
@@ -198,10 +204,19 @@ export function Header() {
   onMouseEnter={() => setActiveIndex(3)}
   onMouseLeave={() => setActiveIndex(null)}
 >
-	<a href="#services" onClick={handleSidebarToggle}>
+<a
+  href="#services"
+  onClick={(e) => {
+    e.preventDefault();
+    setIsSidebarOpen(false);
+
+    document
+      .getElementById("services")
+      ?.scrollIntoView({ behavior: "smooth" });
+  }}
+>
   Our Services
 </a>
-
   {/* <Link
     to="/"
     onClick={() => {
