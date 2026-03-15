@@ -80,11 +80,15 @@ export function Header() {
 							</Link>
 						</li>
 						<li className=''>
-					<a
+	<a
   href="#services"
-  onClick={() => {
+  onClick={(e) => {
+    e.preventDefault();
     setIsSidebarOpen(false);
-    handleSidebarToggle();
+
+    document
+      .getElementById("services")
+      ?.scrollIntoView({ behavior: "smooth" });
   }}
 >
   Our Services
