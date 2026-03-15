@@ -130,7 +130,7 @@ export const PortfolioSection = () => {
         </div>
 
         {/* Portfolio Grid */}
-        <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
+        <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 ">
 
           {filteredProjects.map((project, index) => (
 
