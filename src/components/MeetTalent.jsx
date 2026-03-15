@@ -63,7 +63,11 @@ skills: ["Logo design", "Figma", "UX/UX", "Branding"]
 name: "Collins E.",
 image: person6,
 category: "solidity",
-role: "Marketing Expert",
+role: (
+    <>
+    Smart Contract Dev.  &<br /> Security Researcher
+    </>
+  ),
 skills: ["Blockchain", "Solidity", "Web3", "Ethers.js"]
 },
 ];

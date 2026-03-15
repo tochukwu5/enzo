@@ -79,6 +79,22 @@ export function Header() {
 								Why Us
 							</Link>
 						</li>
+						<li className=''>
+						<Link
+  to="/"
+  onClick={() => {
+    handleSidebarToggle(); // close mobile menu
+
+    setTimeout(() => {
+      document
+        .getElementById("services")
+        ?.scrollIntoView({ behavior: "smooth" });
+    }, 100);
+  }}
+>
+  Our Services
+</Link>
+						</li>
 						<li
 							className=' '
 							onClick={handleSidebarToggle}>
@@ -171,17 +187,30 @@ export function Header() {
 										</ul>
 									</div>
 								</li> */}
-								{/* <li
-									key={3}
-									className={`py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800  ${
-										activeIndex !== null && activeIndex !== 3
-											? 'opacity-50'
-											: ''
-									}`}
-									onMouseEnter={() => setActiveIndex(3)}
-									onMouseLeave={() => setActiveIndex(null)}>
-									<Link to='/why'>Why</Link>
-								</li> */}
+						<li
+  key={3}
+  className={`py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800 ${
+    activeIndex !== null && activeIndex !== 3 ? "opacity-50" : ""
+  }`}
+  onMouseEnter={() => setActiveIndex(3)}
+  onMouseLeave={() => setActiveIndex(null)}
+>
+  <Link
+    to="/"
+    onClick={() => {
+    //   handleSidebarToggle(false); 
+	  setIsSidebarOpen(false);
+      setTimeout(() => {
+        const section = document.getElementById("services");
+        if (section) {
+          section.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 200);
+    }}
+  >
+    Our Services
+  </Link>
+</li>
 								<li
 									key={4}
 									className={`py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800  ${
