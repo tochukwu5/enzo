@@ -1,8 +1,21 @@
 import play from "../assets/img/playButton.svg";
 import cnbcLogo from "../assets/img/cnbc logo.svg";
 import bg from "../assets/img/bg.avif";
+import { DetailedProjectModal } from "./AboutProjectModal";
+import { useState } from "react";
 
 function ReadyToGetStarted() {
+    const [open, setOpen] = useState(false);
+      const [formData, setFormData] = useState({
+      name: "",
+      email: "",
+      businessType: "",
+      goal: "",
+      challenges: "",
+      services: "",
+      budget: "",
+      timeline: "",
+    });
   return (
     <>
       <div className="bg-gray-100 p-11 flex flex-col justify-center items-center">
@@ -12,12 +25,18 @@ function ReadyToGetStarted() {
               Ready to get started?
             </h2>
             <span className="px-3 py-3">
-              <a
-                href="#"
+              <button
+                onClick={() => setOpen(true)}
                 className="bg-green-500 py-3 px-4 lg:px-8 font-semibold shadow rounded-md text-white text-nowrap hover:bg-green-700">
-                Talk to an Expert
-              </a>
+                Tell Us About Your Project
+              </button>
             </span>
+              <DetailedProjectModal
+        isOpen={open}
+        onClose={() => setOpen(false)}
+        formData={formData}
+        setFormData={setFormData}
+      />
           </div>
 
           <div className="relative">

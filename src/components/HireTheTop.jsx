@@ -7,6 +7,7 @@ import image4 from "../assets/img/image4.png";
 import image5 from "../assets/img/image5.png";
 import image6 from "../assets/img/image6.png";
 import { useState, useEffect } from "react";
+import { ProjectModal } from "./StartProjectModal";
 
 function HireTheTop() {
   const divStyle = {
@@ -78,6 +79,8 @@ useEffect(() => {
     return () => clearInterval(interval);
   }, [slides.length]);
 
+   const [open, setOpen] = useState(false);
+
   return (
     <div className="bg-[#d2d6e2] flex justify-center items-center py-16 lg:py-0 px-11 overflow-hidden">
       <div className="max-w-[1200px] grid grid-cols-1 md:grid-cols-2 relative">
@@ -90,12 +93,17 @@ useEffect(() => {
             managed by experienced business leaders.
 
           </p>
-          <a
-            href="#"
+          <button
+           
+            onClick={() => setOpen(true)}
             className="bg-green-400 px-11 py-4 my-5 w-fit text-white text-center text-xl font-bold">
            Start Your Project
-          </a>
+          </button>
         </div>
+        <ProjectModal
+        isOpen={open}
+        onClose={() => setOpen(false)}
+      />
         <div className="relative hidden md:block  h-[500px]">
 
  {slides.map((slide, index) => (

@@ -9,9 +9,9 @@ function TopTalent() {
             </h2>
             <span className="px-3 py-3">
               <a
-                href=""
+                href="https://meetings-eu1.hubspot.com/paul-ebehiremen"
                 className="text-xl bg-green-400 py-3 px-4 lg:px-8 font-bold shadow rounded-md text-white text-nowrap hover:bg-green-600">
-                Book a Free Consultation
+                BoBook a Strategy Call
 
               </a>
             </span>

@@ -3,8 +3,23 @@
 import Hiring from "./Hiring";
 import image1 from "../assets/img/image1.png";
 import image5 from "../assets/img/image5.png";
+import { useState } from "react";
+import { DetailedProjectModal} from "./AboutProjectModal";
+
+
 
 export const LeadershipTeam = () => {
+	const [open, setOpen] = useState(false);
+    const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    businessType: "",
+    goal: "",
+    challenges: "",
+    services: "",
+    budget: "",
+    timeline: "",
+  });
 	return (
 		<>
 			{/* Hero / About Intro */}
@@ -33,13 +48,24 @@ export const LeadershipTeam = () => {
 					</p>
 
 					<div className='mt-10 flex justify-center gap-6'>
-						<button className='bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600'>
-							Start Hiring
-						</button>
+						<a href="https://meetings-eu1.hubspot.com/paul-ebehiremen" target="_blank" rel="noopener noreferrer">
+							<button className='bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600'>
+								Book a Strategy Call
+							</button>
+						</a>
 
-						<button className='border border-gray-400 px-6 py-3 rounded-md hover:bg-gray-200'>
+						<button
+						onClick={() => setOpen(true)}
+						className='border border-gray-400 px-6 py-3 rounded-md hover:bg-gray-200'>
 							Tell Us About Your Project
 						</button>
+		  <DetailedProjectModal
+        isOpen={open}
+        onClose={() => setOpen(false)}
+        formData={formData}
+        setFormData={setFormData}
+      />
+
 					</div>
 				</div>
 			</section>
@@ -191,12 +217,16 @@ export const LeadershipTeam = () => {
 				</p>
 
 				<div className='flex justify-center gap-6'>
-					<button className='bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600'>
-						Book a Strategy Call
-					</button>
+					<a href="https://meetings-eu1.hubspot.com/paul-ebehiremen" target="_blank" rel="noopener noreferrer">
+						<button className='bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600'>
+							Book a Strategy Call
+						</button>
+					</a>
 
-					<button className='border  border-gray-400 px-6 py-3 rounded-md hover:bg-gray-200'>
-						Submit Your Business Challenge
+					<button
+					onClick={() => setOpen(true)}
+					className='border  border-gray-400 px-6 py-3 rounded-md hover:bg-gray-200'>
+						Tell Us About Your Project
 					</button>
 				</div>
 			</section>

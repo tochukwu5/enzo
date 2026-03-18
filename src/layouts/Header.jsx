@@ -9,10 +9,24 @@ import {
 import logo from '../assets/img/logo.png';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { DetailedProjectModal} from "../components/AboutProjectModal";
+
 
 export function Header() {
 	const [activeIndex, setActiveIndex] = useState(null);
 	const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+	const [open, setOpen] = useState(false);
+	const [formData, setFormData] = useState({
+		name: "",
+		email: "",
+		businessType: "",
+		goal: "",
+		challenges: "",
+		services: "",
+		budget: "",
+		timeline: "",
+	});
 
 	const handleSidebarToggle = () => {
 		setIsSidebarOpen(!isSidebarOpen);
@@ -72,6 +86,22 @@ export function Header() {
 							</div>
 						</li> */}
 						<li className=''>
+							<Link
+								to='/'
+								// to='/why'
+								// onClick={handleSidebarToggle}
+								onClick={() => {
+								window.scrollTo({
+								top: 0,
+								behavior: "smooth",
+								});
+							}}
+								>
+								Home
+							</Link>
+						</li>
+
+							<li className=''>
 							<Link
 								to='/top'
 								// to='/why'
@@ -134,7 +164,7 @@ export function Header() {
 
 			{/* ------------------------- Header ---------------------------- */}
 
-			<div className='bg-white flex justify-center w-full z-50 items-center relative'>
+			<div className='bg-white flex justify-center w-full z-50 items-center fixed  top-0 left-0 right-0 shadow-md'>
 				<div className='text-sm flex items-center justify-between w-full 2xl:max-w-[1200px] px-[5%]'>
 					
 					<div className=' font-small flex items-center justify-items-start sm:justify-between'>
@@ -149,6 +179,26 @@ export function Header() {
 						<nav className='lg:ml-14 hidden lg:block'>
 							<ul className='flex gap-4 px-4 hover:cursor-pointer '>
 								<li
+									key={1}
+									className={`py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800 ${
+										activeIndex !== null && activeIndex !== 1
+											? 'opacity-50'
+											: ''
+									}`}
+									onMouseEnter={() => setActiveIndex(0)}
+									onMouseLeave={() => setActiveIndex(null)}>
+									{/* <Link to='/top'>Why Us</Link> */}
+									<Link to='/'
+									onClick={() => {
+									window.scrollTo({
+									top: 0,
+									behavior: "smooth",
+									});
+								}}>
+									Home
+									</Link>
+								</li>
+									<li
 									key={1}
 									className={`py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800 ${
 										activeIndex !== null && activeIndex !== 1
@@ -221,21 +271,7 @@ export function Header() {
 >
   Our Services
 </a>
-  {/* <Link
-    to="/"
-    onClick={() => {
-    //   handleSidebarToggle(false); 
-	  setIsSidebarOpen(false);
-      setTimeout(() => {
-        const section = document.getElementById("services");
-        if (section) {
-          section.scrollIntoView({ behavior: "smooth " });
-        }
-      }, 200);
-    }}
-  >
-    Our Services
-  </Link> */}
+ 
 </li>
 								<li
 									key={4}
@@ -292,12 +328,20 @@ export function Header() {
 						</a> */}
 
 						<span className='px-3 py-3'>
-							<a
-								href=''
+							<button
+								onClick={() => setOpen(true)}
 								className='bg-green-400 py-2 px-4 rounded-md text-white hover:bg-green-300'>
 								Tell Us About Your Project
-							</a>
+							</button>
 						</span>
+
+						  <DetailedProjectModal
+        isOpen={open}
+        onClose={() => setOpen(false)}
+        formData={formData}
+        setFormData={setFormData}
+      />
+							
 
 						{/* <a
 							href=''
