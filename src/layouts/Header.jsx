@@ -110,33 +110,13 @@ export function Header() {
 							</Link>
 						</li>
 						<li className=''>
-	<a
-  href="#services"
-  onClick={(e) => {
-    e.preventDefault();
-    setIsSidebarOpen(false);
-
-    document
-      .getElementById("services")
-      ?.scrollIntoView({ behavior: "smooth" });
-  }}
+<Link
+  to="/#services"
+  onClick={() => setIsSidebarOpen(false)}
 >
   Our Services
-</a>
-						{/* <Link
-  to="/"
-  onClick={() => {
-    handleSidebarToggle(); // close mobile menu
+</Link>
 
-    setTimeout(() => {
-      document
-        .getElementById("services")
-        ?.scrollIntoView({ behavior: "smooth" });
-    }, 100);
-  }}
->
-  Our Services
-</Link> */}
 						</li>
 						<li
 							className=' '
@@ -258,19 +238,12 @@ export function Header() {
   onMouseEnter={() => setActiveIndex(3)}
   onMouseLeave={() => setActiveIndex(null)}
 >
-<a
-  href="#services"
-  onClick={(e) => {
-    e.preventDefault();
-    setIsSidebarOpen(false);
-
-    document
-      .getElementById("services")
-      ?.scrollIntoView({ behavior: "smooth" });
-  }}
+<Link
+  to="/#services"
+  onClick={() => setIsSidebarOpen(false)}
 >
   Our Services
-</a>
+</Link>
  
 </li>
 								<li
