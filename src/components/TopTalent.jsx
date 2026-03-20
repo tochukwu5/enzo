@@ -11,7 +11,7 @@ function TopTalent() {
               <a
                 href="https://meetings-eu1.hubspot.com/paul-ebehiremen"
                 className="text-xl bg-green-400 py-3 px-4 lg:px-8 font-bold shadow rounded-md text-white text-nowrap hover:bg-green-600">
-                BoBook a Strategy Call
+                Book a Strategy Call
 
               </a>
             </span>
