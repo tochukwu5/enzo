@@ -24,7 +24,7 @@ function Developer() {
 						Unlock Elite Global Expertise
 					</h2>
 					<p className=' m-6 text-center text-gray-500 max-w-[600px]'>
-						Enzo Solutions Group connects you with a carefully selected network of exceptional
+						Enzo Solutions Network connects you with a carefully selected network of exceptional
 						 professionals in business, design, and technology — ready to deliver excellence 
 						 on your most mission-critical projects
 					</p>

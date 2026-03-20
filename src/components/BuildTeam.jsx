@@ -4,9 +4,9 @@ import arrow from '../assets/img/arrow.svg';
 import leading from '../assets/img/leading.svg';
 import level from '../assets/img/level.svg';
 import theTop from '../assets/img/top.svg';
-import person1 from '../assets/img/image1.png';
-import person2 from '../assets/img/image2.png';
-import person5 from '../assets/img/image5.png';
+import person1 from '../assets/img/image1.webp';
+import person2 from '../assets/img/image2.webp';
+import person5 from '../assets/img/image5.webp';
 import shopify from '../assets/img/shopify.svg';
 import logo from '../assets/img/logo.png';
 
@@ -33,7 +33,7 @@ function BuildTeam() {
 							<h2 className='mb-3 heading-xs font-semibold'>Unreliable Freelancers</h2>
 							<p className=' text-gray-700 font-light'>
 								Many businesses struggle with freelancers who disappear mid-project or deliver inconsistent quality.
-								 Enzo Solutions Group provides carefully vetted professionals and managed teams, ensuring reliability, 
+								 Enzo Solutions Network provides carefully vetted professionals and managed teams, ensuring reliability, 
 								 accountability, and consistent results on every project
 							</p>
 						</div>
@@ -74,7 +74,7 @@ function BuildTeam() {
 							<h2 className='mb-3 heading-xs font-semibold'>Managing Multiple Specialists</h2>
 							<p className=' text-gray-700 font-light'>
 								Modern projects require different experts like developers, designers, marketers, and content creators, 
-								which can be difficult to manage individually. Enzo Solutions Group brings together the right 
+								which can be difficult to manage individually. Enzo Solutions Network brings together the right 
 								specialists into one coordinated team, so businesses can focus on growth while we handle the execution.
 							</p>
 						</div>

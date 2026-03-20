@@ -1,8 +1,8 @@
 /** @format */
 
 import Hiring from "./Hiring";
-import image1 from "../assets/img/image1.png";
-import image5 from "../assets/img/image5.png";
+import image1 from "../assets/img/image1.webp";
+import image5 from "../assets/img/image5.webp";
 import { useState } from "react";
 import { DetailedProjectModal} from "./AboutProjectModal";
 
@@ -26,11 +26,11 @@ export const LeadershipTeam = () => {
 			<section className='bg-gray-100 py-20 flex justify-center'>
 				<div className='max-w-[1200px] px-6 text-center'>
 					<h1 className='text-2xl lg:text-5xl font-semibold text-gray-800 mb-6'>
-						About Enzo Solutions Group
+						About Enzo Solutions Network
 					</h1>
 
 						<p className='text-gray-600 text-left leading-relaxed max-w-3xl mx-auto'>
-						Enzo Solutions Group is a business solutions agency that helps organizations solve critical challenges by
+						Enzo Solutions Network is a business solutions agency that helps organizations solve critical challenges by
 						 connecting them with the right expertise. Instead of navigating the complexity of hiring and managing
 						  multiple freelancers, businesses work with us to access a curated network of skilled professionals across 
 						  sales, marketing, technology, design, and business operations. <br /> <br />
@@ -39,7 +39,7 @@ export const LeadershipTeam = () => {
 						    assemble the right specialists, and manage the execution so projects are completed efficiently and 
 							professionally.
 							<br /> <br />
-							By bridging the gap between business needs and world-class expertise, Enzo Solutions Group enables
+							By bridging the gap between business needs and world-class expertise, Enzo Solutions Network enables
 							 companies to move faster, scale smarter, and focus on growth while we handle the delivery of
 							  high-impact solutions.
 								<p className="text-gray-600 font-bold text-left leading-relaxed max-w-3xl mx-auto">Strategic Solutions. Expert Talent. Real Results</p>
@@ -78,7 +78,7 @@ export const LeadershipTeam = () => {
 					</h2>
 					<p className='text-gray-600 text-left leading-relaxed max-w-3xl mx-auto'>
 					Many businesses struggle with unreliable freelancers, poor communication, and missed deadlines when working with 
-									remote talent. Enzo Solutions Group removes this complexity by providing carefully selected professionals and 
+									remote talent. Enzo Solutions Network removes this complexity by providing carefully selected professionals and 
 									structured team management that ensures every project runs smoothly from start to finish.
 					</p>
 				
@@ -171,7 +171,7 @@ export const LeadershipTeam = () => {
 								 opportunities through strategic sales processes, lead generation systems, and market expansion 
 								 strategies.
 
-								At Enzo Solutions Group, Paul leads the company’s growth strategy, client acquisition, and solution 
+								At Enzo Solutions Network, Paul leads the company’s growth strategy, client acquisition, and solution 
 								development, ensuring that every project aligns with the client’s business goals and delivers measurable 
 								results.
 							</p>
@@ -196,7 +196,7 @@ export const LeadershipTeam = () => {
 								different markets enables him to identify growth opportunities and build strong relationships that 
 								drive long-term success.
 
-								At Enzo Solutions Group, Mark oversees global business development initiatives, strategic partnerships,
+								At Enzo Solutions Network, Mark oversees global business development initiatives, strategic partnerships,
 								 and client relationships, helping the company expand its reach and deliver value to clients worldwide.
 							</p>
 						</div>
@@ -212,7 +212,7 @@ export const LeadershipTeam = () => {
 
 				<p className='text-gray-600 max-w-2xl mx-auto mb-8 '>
 					Whether you need help with sales, marketing, development, or
-					operations, Enzo Solutions Group can assemble the right team to help
+					operations, Enzo Solutions Network can assemble the right team to help
 					your business grow.
 				</p>
 

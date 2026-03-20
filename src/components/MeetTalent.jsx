@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-import person1 from "../assets/img/image1.png";
-import person2 from "../assets/img/image2.png";
-import person3 from "../assets/img/image3.png";
-import person4 from "../assets/img/image4.png";
-import person5 from "../assets/img/image5.png";
-import person6 from "../assets/img/image6.png";
+import person1 from "../assets/img/image1.webp";
+import person2 from "../assets/img/image2.webp";
+import person3 from "../assets/img/image3.webp";
+import person4 from "../assets/img/image4.webp";
+import person5 from "../assets/img/image5.webp";
+import person6 from "../assets/img/image6.webp";
 
 import logo from "../assets/img/logo.png";
 import toptal from "../assets/img/Toptal.svg";

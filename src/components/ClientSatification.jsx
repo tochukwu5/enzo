@@ -144,11 +144,11 @@ function ClientSatification() {
 										fill='blue'></path>
 								</svg>
 								<h3 className='font-bold'>
-									I have been working with Mark from Enzo Solutions Group
+									I have been working with Mark from Enzo Solutions Network
 								</h3>
 
 								<p className='text-gray-500 text-sm'>
-									I am delighted to recognize Mark from Enzo Solutions Group for his exceptional sales skills. Mark consistently meets and exceeds his sales targets, demonstrating outstanding product knowledge and customer service. His ability to build strong relationships with clients has significantly contributed to our sales growth.
+									I am delighted to recognize Mark from Enzo Solutions Network for his exceptional sales skills. Mark consistently meets and exceeds his sales targets, demonstrating outstanding product knowledge and customer service. His ability to build strong relationships with clients has significantly contributed to our sales growth.
 
 								</p>
 
@@ -227,11 +227,11 @@ function ClientSatification() {
 										fill='blue'></path>
 								</svg>
 								<h3 className='font-bold'>
-									Enzo Solutions Group has consistently become my primary source for everything I need
+									Enzo Solutions Network has consistently become my primary source for everything I need
 								</h3>
 
 								<p className='text-gray-500 text-sm'>
-									Having met and worked with Paul from Enzo Solutions Group has been greatly appreciated. He is a great communicator, 
+									Having met and worked with Paul from Enzo Solutions Network has been greatly appreciated. He is a great communicator, 
 									professional, and very clear on what is needed for a successful sales cycle. I will not hesitate
 									 to recommend him or work with them in the future if the occasion arise
 								</p>
@@ -311,11 +311,11 @@ function ClientSatification() {
 										fill='blue'></path>
 								</svg>
 								<h3 className='font-bold'>
-									Enzo Solutions Group is the best company I have worked with
+									Enzo Solutions Network is the best company I have worked with
 								</h3>
 
 								<p className='text-gray-500 text-sm'>
-									Enzo Solutions Group helped me set up my Sales flow, scripts, CRMs, they got me on the right track, however,
+									Enzo Solutions Network helped me set up my Sales flow, scripts, CRMs, they got me on the right track, however,
 									 I wasn't ready with my product fully enough. For anyone with a good product to sell, they are 
 									 the one! Looking forward working with them again once I close my development gaps.
 								</p>

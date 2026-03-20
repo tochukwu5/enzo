@@ -91,7 +91,7 @@ export const ResultsSection = () => {
               <div className="bg-white p-8 rounded-lg shadow">
 
                 <p className="text-gray-600 mb-6">
-                  At Enzo Solutions Group, we focus on delivering measurable
+                  At Enzo Solutions Network, we focus on delivering measurable
                   results for businesses through strategic development,
                   lead generation, and digital solutions that help companies
                   scale and grow.

@@ -1,11 +1,11 @@
-import image1 from "../assets/img/image1.png";
+import image1 from "../assets/img/image1.webp";
 import map from "../assets/img/map.png";
 import logo from '../assets/img/logo.png';
-import image2 from "../assets/img/image2.png";
-import image3 from "../assets/img/image3.png";
-import image4 from "../assets/img/image4.png";
-import image5 from "../assets/img/image5.png";
-import image6 from "../assets/img/image6.png";
+import image2 from "../assets/img/image2.webp";
+import image3 from "../assets/img/image3.webp";
+import image4 from "../assets/img/image4.webp";
+import image5 from "../assets/img/image5.webp";
+import image6 from "../assets/img/image6.webp";
 import { useState, useEffect } from "react";
 import { ProjectModal } from "./StartProjectModal";
 

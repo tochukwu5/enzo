@@ -8,7 +8,7 @@ export const ClientsHeading = () => {
 					<h1 className='text-4xl md:text-5xl font-semibold mb-4'>Our Portfolio</h1>
 					<div className='sm:pt-5 text-xl'>
 						<p className='text-sm sm:text-xl text-left lg:text-center'>
-							Enzo Solutions Group partners with growing businesses, startups, and entrepreneurs to 
+							Enzo Solutions Network partners with growing businesses, startups, and entrepreneurs to 
 							deliver high-quality digital solutions. From web development and design to sales and 
 							marketing systems, we help organizations build strong online presence, generate leads,
 							 and scale their operations with confidence.

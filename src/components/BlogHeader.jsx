@@ -24,7 +24,7 @@ export const BlogHeader = () => {
 								<div className=''>
 									<p className='py-6 px-5 lg:block text-left lg:px-20'>
 										Have a project in mind or a business challenge you need help solving?
-										The team at Enzo Solutions Group is here to help.
+										The team at Enzo Solutions Network is here to help.
 
 											We work with businesses to assemble and manage expert teams across sales, marketing, technology,
 											 and operations to deliver real results. Share a few details about your project and our team will

@@ -30,7 +30,7 @@ export const TheToptalScreenProcess = () => {
       </h2>
 
       <p className="text-center text-gray-700 mb-16 max-w-2xl mx-auto">
-        Businesses work with Enzo Solutions Group because we combine strategic leadership with expert talent to deliver reliable, high-quality solutions.
+        Businesses work with Enzo Solutions Network because we combine strategic leadership with expert talent to deliver reliable, high-quality solutions.
       </p>
 
       <div className="relative">

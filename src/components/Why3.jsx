@@ -7,11 +7,11 @@ export const Why3 = () => {
     <div className="bg-blue-900 px-6 py-20 flex justify-center items-center">
       <div className="max-w-[1100px] text-center text-white">
         <h1 className="text-4xl md:text-5xl font-semibold mb-6 text-left lg:text-center">
-          Why Businesses Choose Enzo Solutions Group
+          Why Businesses Choose Enzo Solutions Network
         </h1>
 
         <p className="text-lg md:text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed text-left lg:text-center">
-          Enzo Solutions Group helps businesses solve complex challenges by
+          Enzo Solutions Network helps businesses solve complex challenges by
           assembling and managing expert teams across sales, marketing,
           technology, and operations.
         </p>

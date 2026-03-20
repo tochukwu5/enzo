@@ -10,7 +10,7 @@ export const ConnectTheTop = () => {
             className="absolute w-full h-full"
           />
           <p className="text-2xl  md:text-5xl text-white text-center py-10 md:p-32 leading-normal">
-            Enzo Solutions Group Empowers Businesses with Innovative Digital Solutions Worldwide.
+            Enzo Solutions Network Empowers Businesses with Innovative Digital Solutions Worldwide.
           </p>
         </div>
       </div>

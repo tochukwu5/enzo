@@ -5,7 +5,7 @@ function TopTalent() {
         <div className="max-w-[1200px] flex flex-col justify-center items-center">
           <div className="mb-11 flex flex-col lg:flex-row gap-3 justify-center items-center">
             <h2 className="text-sm lg:text-2xl text-gray-700 text-center">
-              Enzo Solutions Group is in high demand.
+              Enzo Solutions Network is in high demand.
             </h2>
             <span className="px-3 py-3">
               <a
