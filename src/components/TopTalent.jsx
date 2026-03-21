@@ -10,6 +10,8 @@ function TopTalent() {
             <span className="px-3 py-3">
               <a
                 href="https://meetings-eu1.hubspot.com/paul-ebehiremen"
+                target="_blank"
+                 rel="noopener noreferrer"
                 className="text-xl bg-green-400 py-3 px-4 lg:px-8 font-bold shadow rounded-md text-white text-nowrap hover:bg-green-600">
                 Book a Strategy Call
 

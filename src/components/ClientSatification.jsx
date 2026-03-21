@@ -154,6 +154,8 @@ function ClientSatification() {
 
 								<a
 									href='https://www.upwork.com/freelancers/~01deca9980c2e8d7ee'
+									target="_blank"
+   									 rel="noopener noreferrer"
 									className='text-blue-800 hover:underline font-semibold'>
 									See More
 								</a>
@@ -238,6 +240,8 @@ function ClientSatification() {
 
 								<a
 									href='https://www.upwork.com/freelancers/~019de7efe85477966a'
+									target="_blank"
+    								rel="noopener noreferrer"
 									className='text-blue-800 hover:underline font-semibold'>
 									See More
 								</a>
@@ -322,6 +326,8 @@ function ClientSatification() {
 
 								<a
 									href='https://www.upwork.com/freelancers/~019de7efe85477966a'
+									target="_blank"
+   									 rel="noopener noreferrer"
 									className='text-blue-800 hover:underline font-semibold'>
 									See More
 								</a>
