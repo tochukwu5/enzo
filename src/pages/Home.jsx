@@ -41,7 +41,7 @@ export const Home = () => {
         <Developer />
         <BuildTeam />
         <Hiring />
-        <MeetTalent />
+        {/* <MeetTalent /> */}
         {/* <OrganizationsChoose /> */}
         {/* <Collaborations /> */}
         <ReadyToGetStarted />
