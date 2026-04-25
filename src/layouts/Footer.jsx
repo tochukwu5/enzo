@@ -20,7 +20,7 @@ function Footer() {
 							</h3>
 							<ul>
 								<li className="pt-3">
-									<span className="text-gray-300 cursor-default">Hire Digital Marketers</span>
+									<span className="text-gray-300 cursor-default ">Hire Digital Marketers</span>
 								</li>
 								<li className="pt-3">
 									<span className="text-gray-300 cursor-default">Hire Web & Mobile Developers</span>
