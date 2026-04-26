@@ -4,7 +4,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import "./App.css";
-import { createHashRouter, RouterProvider } from 'react-router-dom'; // ← changed to createHashRouter
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'; // ← changed to createBrowserRouter
 import ErrorPage from './components/ErrorPage.jsx';
 import { Home } from './pages/Home.jsx';
 import { Top } from './pages/Top.jsx';
@@ -15,7 +15,7 @@ import { Clients } from './pages/Clients.jsx';
 import { Blog } from './pages/Blog.jsx';
 import { About } from './pages/About.jsx';
 
-const router = createHashRouter([  // ← changed to createHashRouter
+const router = createBrowserRouter([  // ← changed to createBrowserRouter
 	{
 		path: '/',
 		element: <Home />,
