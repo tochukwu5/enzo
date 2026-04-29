@@ -5,12 +5,19 @@
     <title>Enzo Solutions Network</title>
     <script>
       var l = window.location;
-      l.replace(
-        l.protocol + '//' + l.host + l.pathname.split('/').slice(0, 1).join('/') +
-        '/?/' + l.pathname.slice(1).replace(/&/g, '~and~') +
-        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-      );
+      var pathname = l.pathname;
+      
+      // Don't redirect static files
+      if (pathname.endsWith('.xml') || pathname.endsWith('.txt') || pathname.endsWith('.json')) {
+        // Do nothing, let the file load normally
+      } else {
+        l.replace(
+          l.protocol + '//' + l.host + l.pathname.split('/').slice(0, 1).join('/') +
+          '/?/' + l.pathname.slice(1).replace(/&/g, '~and~') +
+          (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+          l.hash
+        );
+      }
     </script>
   </head>
   <body></body>
