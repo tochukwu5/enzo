@@ -84,7 +84,7 @@ useEffect(() => {
   return (
     <div className="bg-[#d2d6e2] flex justify-center items-center py-16 lg:py-0 px-11 overflow-hidden">
       <div className="max-w-[1200px] grid grid-cols-1 md:grid-cols-2 relative">
-        <div className="mb-5 flex flex-col justify-center items-center z-10">
+        <div className="mb-5 flex flex-col justify-center items-center z-10 ">
           <h1 className=" text-2xl lg:text-3xl lg:leading-normal leading-normal text-center font-medium text-gray-800 lg:text-left">
             Build, Scale, and Grow Your Business with On-Demand Expert Teams
           </h1>
@@ -106,7 +106,7 @@ useEffect(() => {
       />
         <div className="relative hidden md:block  h-[500px]">
 
- {slides.map((slide, index) => (
+ {/* {slides.map((slide, index) => (
   <div
     key={index}
     className={`flex justify-center items-center absolute ml-5 bottom-0 left-0 w-full transition-opacity duration-1000 ${
@@ -114,7 +114,6 @@ useEffect(() => {
     }`}
   >
 
-    {/* IMAGE SECTION */}
     <div className="absolute bottom-32 md:-right-32 xl:-left-6 w-[400px] h-[330px]   lg:w-[350px] xl:w-[400px]">
       <img
         src={slide.image}
@@ -125,7 +124,6 @@ useEffect(() => {
     </div>
 
 
-    {/* INFO CARD */}
     <div
   className="relative mb-10 md:left-20 lg:left-28 xl:left-36 bottom-11
   w-[400px] lg:w-[460px] xl:w-[500px]
@@ -135,12 +133,10 @@ useEffect(() => {
 >
       <div className={`flip-card-inner ${flip ? "flip" : ""}`}>
 
-        {/* FRONT SIDE */}
         <div className="flip-card-front grid text-sm p-5 bg-white justify-center items-center min-h-[360px]  ">
 
           <img src={map} alt="Map" />
 
-          {/* Animated Dot */}
            <div className="absolute top-[28%] left-[46%] w-3 h-3">
     <div className="absolute w-full h-full rounded-full bg-blue-700 animate-ping"></div>
     <div className="absolute top-[35%] left-[35%] w-1 h-1 rounded-full bg-blue-700"></div>
@@ -148,12 +144,10 @@ useEffect(() => {
 
           <div className="mt-3 mr-14">
 
-            {/* NAME */}
             <h3 className="text-blue-700 font-semibold hover:cursor-pointer hover:underline p-1">
               {slide.name}
             </h3>
 
-            {/* VERIFIED */}
             <div className="flex gap-1">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="green">
                 <path
@@ -168,19 +162,10 @@ useEffect(() => {
               </h3>
             </div>
 
-            {/* ROLE */}
             <div className="flex gap-1 mb-4 mt-1">
-              {/* <svg width="16" height="16">
-                <path
-                  fill="#204ECF"
-                  d="M10.1 1.125 6.875 15.1l-.975-.225L9.125.9l.975.225Z"
-                />
-              </svg>
-
-              <h3 className="text-sm">{slide.role}</h3> */}
+             
             </div>
 
-            {/* COMPANY */}
             <h3 className="text-green-900 mt-6 text-sm">Currently Working At</h3>
             <img src={logo}
             className="w-36"
@@ -193,7 +178,7 @@ useEffect(() => {
     </div>
 
   </div>
-))}
+))} */}
 
 </div>
 
