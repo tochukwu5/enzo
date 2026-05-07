@@ -126,7 +126,7 @@ export const ContactSection = () => {
                   <Mail size={22} className="mt-0.5 shrink-0" />
                   <div>
                     <p className="font-medium">Email Us</p>
-                    <p className="text-blue-100 text-sm">paul.ebehiremen@gmail.com</p>
+                    <p className="text-blue-100 text-sm">paul@hireenzo.com</p>
                   </div>
                 </div>
 
