@@ -85,11 +85,11 @@ useEffect(() => {
     <div className="bg-[#d2d6e2] flex justify-center items-center py-16 lg:py-0 px-11 overflow-hidden">
       <div className="max-w-[1200px] grid grid-cols-1 md:grid-cols-2 relative lg:flex ">
         <div className="mb-5 flex flex-col justify-center items-center z-10 lg:mx-auto mt-7">
-          <h1 className=" text-2xl lg:text-3xl lg:leading-normal leading-normal text-center font-medium text-gray-800 ">
-            Build, Scale, and Grow Your Business with  <br />On-Demand Expert Teams
+          <h1 className=" text-2xl lg:text-3xl lg:leading-normal leading-normal text-center font-medium text-gray-800  lg:w-[600px] ">
+            Build, Scale, and Grow Your Business with On-Demand Expert Teams
           </h1>
-          <p className=" mt-5 text-center mb-11 text-gray-500 ">
-            We connect businesses with carefully vetted professionals across sales, technology, marketing,  <br />and operations 
+          <p className=" mt-5 text-center mb-11 text-gray-500 lg:w-[650px]">
+            We connect businesses with carefully vetted professionals across sales, technology, marketing, and operations 
             managed by experienced business leaders.
 
           </p>
